@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kleinmond App Studio – free apps and tools made in Kleinmond</title>
+<meta name="description" content="Free apps, games and web tools made with care in Kleinmond, South Africa. Boating Days forecast, and more on the way.">
+<meta property="og:title" content="Kleinmond App Studio">
+<meta property="og:description" content="Free apps, games and web tools made with care in Kleinmond.">
+<meta property="og:image" content="https://kleinmondappstudio.github.io/boating-days/assets/cover.jpg">
+<meta name="theme-color" content="#0b1f4b">
+<link rel="icon" href="https://kleinmondappstudio.github.io/boating-days/assets/favicon.png">
+<link rel="apple-touch-icon" href="https://kleinmondappstudio.github.io/boating-days/assets/apple-touch-icon.png">
+<style>
+  :root{--navy:#0b1f4b;--teal:#0e9aa7;--orange:#f26b1d;--sand:#f6f3ee;--ink:#1b2333;--muted:#55607a;--line:#dfe3ea;--green:#1f8a3b}
+  *{box-sizing:border-box}
+  html{font-size:19px}
+  body{margin:0;font-family:"Segoe UI",Roboto,Arial,sans-serif;background:var(--sand);color:var(--ink);line-height:1.5}
+  .wrap{max-width:900px;margin:0 auto;padding:0 16px}
+  header{background:var(--navy);color:#fff}
+  .cover{display:block;width:100%;height:auto;max-height:340px;object-fit:cover}
+  .brand{display:flex;align-items:center;gap:14px;padding:14px 0 18px}
+  .brand img{width:76px;height:76px;margin-top:-48px;border-radius:50%;border:4px solid var(--navy);background:var(--navy);flex:none}
+  .brand h1{margin:0;font-size:1.7rem;line-height:1.15}
+  .brand p{margin:2px 0 0;color:#cfe3ff;font-size:.95rem}
+  main{padding:22px 0 40px}
+  h2{font-size:1.3rem;color:var(--navy);margin:28px 0 12px}
+  .intro{font-size:1.05rem}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+  .card{background:#fff;border-radius:16px;padding:18px;box-shadow:0 1px 3px rgba(0,0,0,.08);border-top:8px solid var(--teal);display:flex;flex-direction:column;gap:8px}
+  .card.live{border-top-color:var(--green)}
+  .card.soon{border-top-color:#c7ccd6;opacity:.92}
+  .card h3{margin:0;font-size:1.2rem}
+  .card p{margin:0;color:var(--muted)}
+  .tag{align-self:flex-start;font-size:.8rem;font-weight:700;padding:3px 10px;border-radius:999px;background:#e4f5e8;color:var(--green)}
+  .soon .tag{background:#eceff4;color:var(--muted)}
+  .btn{display:inline-block;margin-top:auto;text-align:center;padding:14px 18px;border-radius:12px;background:var(--navy);color:#fff;text-decoration:none;font-weight:700}
+  .btn.orange{background:var(--orange)} .btn.teal{background:var(--teal)}
+  .btn:focus-visible{outline:4px solid var(--orange);outline-offset:2px}
+  .apps{background:#fff;border-radius:16px;padding:18px;border:1px solid var(--line)}
+  .apps ul{columns:2;column-gap:24px;margin:8px 0 16px;padding-left:20px}
+  .apps li{margin:2px 0}
+  .ideas{background:var(--navy);color:#fff;border-radius:16px;padding:18px}
+  .ideas h2{color:#fff;margin-top:0}
+  footer{background:var(--navy);color:#cfe3ff;padding:20px 0;font-size:.9rem}
+  @media (max-width:520px){html{font-size:18px}.brand img{width:62px;height:62px;margin-top:-38px}.brand h1{font-size:1.45rem}.apps ul{columns:1}}
+</style>
+</head>
+<body>
+<header>
+  <img class="cover" src="https://kleinmondappstudio.github.io/boating-days/assets/cover.jpg" alt="Kleinmond App Studio banner: Kleinmond mountains, lagoon and sea">
+  <div class="wrap brand">
+    <img src="https://kleinmondappstudio.github.io/boating-days/assets/logo.png" alt="Kleinmond App Studio logo">
+    <div>
+      <h1>Kleinmond App Studio</h1>
+      <p>Free apps, games and tools – made with care in Kleinmond.</p>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <p class="intro">Welcome! Kleinmond App Studio is a one-man studio right here in Kleinmond. I build simple, useful tools for our community – easy to use, with big buttons and no sign-ups. The community tools below are free for everyone.</p>
+
+  <h2>Free community tools</h2>
+  <div class="cards">
+    <article class="card live">
+      <span class="tag">Ready to use</span>
+      <h3>⛵ Boating Days</h3>
+      <p>Which days this week are good for the boat? Green, orange and red days for Kleinmond, Pringle Bay, Gordon's Bay and Hermanus – with wind, waves and tides. Set your own limits.</p>
+      <a class="btn" href="boating-days/">Open Boating Days</a>
+    </article>
+    <article class="card soon">
+      <span class="tag">Coming soon</span>
+      <h3>🔍 Kleinmond Magnifier</h3>
+      <p>Read small print, medicine labels and router stickers with your phone camera – zoom in, freeze the picture and have it read out loud.</p>
+    </article>
+    <article class="card soon">
+      <span class="tag">Coming soon</span>
+      <h3>🃏 Card games for coffee mornings</h3>
+      <p>Easy, friendly card games to play together on your phones – at the café or on family evenings.</p>
+    </article>
+  </div>
+
+  <h2>Our apps and games on Google Play</h2>
+  <div class="apps">
+    <p>Besides the free community tools, we have these apps and games on the Google Play Store:</p>
+    <ul>
+      <li>WiFi Analyzer &amp; Network Tools</li>
+      <li>Wifi Survey Suite: Analyzer</li>
+      <li>WiFi File Transfer: Phone &amp; PC</li>
+      <li>Screenshot OCR</li>
+      <li>Sticky Notes &amp; Reminders</li>
+      <li>Markdown Editor: Offline Notes</li>
+      <li>Simple Bookmark Manager</li>
+      <li>Teleprompter UI</li>
+      <li>Jungle Glow: Tiger &amp; Parrot</li>
+      <li>Jungle Rescue: Dart Shooter</li>
+      <li>Deepglow: Squid &amp; Bionic Run</li>
+    </ul>
+    <a class="btn teal" href="https://play.google.com/store/apps/developer?id=Mossie">See them all on Google Play</a>
+  </div>
+
+  <h2>Have an idea?</h2>
+  <div class="ideas">
+    <p>Is there something that would make life in Kleinmond a little easier? A tool for the boat, the garden, the club or the coffee morning? I read every suggestion – I can't build everything, but the best ideas become the next free tool.</p>
+    <a class="btn orange" href="https://www.facebook.com/KleinmondAppStudio">Tell us on Facebook</a>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">Made with care in Kleinmond, South Africa · Kleinmond App Studio · <a href="https://www.facebook.com/KleinmondAppStudio" style="color:#fff">Facebook</a></div>
+</footer>
+</body>
+</html>
