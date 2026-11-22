@@ -39,9 +39,12 @@
   .btn:focus-visible{outline:4px solid var(--orange);outline-offset:2px}
   .apps{background:#fff;border-radius:16px;padding:18px;border:1px solid var(--line)}
   .apps ul{columns:2;column-gap:24px;margin:8px 0 16px;padding-left:20px}
-  .apps li{margin:2px 0}
+  .apps li{margin:4px 0}
+  .apps a{color:var(--navy);font-weight:600}
   .ideas{background:var(--navy);color:#fff;border-radius:16px;padding:18px}
   .ideas h2{color:#fff;margin-top:0}
+  .ideabtns{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
+  .small{font-size:.85rem;color:#cfe3ff;margin:10px 0 0}
   footer{background:var(--navy);color:#cfe3ff;padding:20px 0;font-size:.9rem}
   @media (max-width:520px){html{font-size:18px}.brand img{width:62px;height:62px;margin-top:-38px}.brand h1{font-size:1.45rem}.apps ul{columns:1}}
 </style>
@@ -66,7 +69,7 @@
     <article class="card live">
       <span class="tag">Ready to use</span>
       <h3>⛵ Boating Days</h3>
-      <p>Which days this week are good for the boat? Green, orange and red days for Kleinmond, Pringle Bay, Gordon's Bay and Hermanus – with wind, waves and tides. Set your own limits.</p>
+      <p>Which days this week are good for the boat? Green, orange and red days for Kleinmond, Pringle Bay, Gordon's Bay and Hermanus – with wind, waves and tides. Set your own limits. Works on phones, tablets and computers.</p>
       <a class="btn" href="boating-days/">Open Boating Days</a>
     </article>
     <article class="card soon">
@@ -83,27 +86,31 @@
 
   <h2>Our apps and games on Google Play</h2>
   <div class="apps">
-    <p>Besides the free community tools, we have these apps and games on the Google Play Store:</p>
+    <p>Besides the free community tools, we have these apps and games on the Google Play Store. Choose one to see it on Google Play:</p>
     <ul>
-      <li>WiFi Analyzer &amp; Network Tools</li>
-      <li>Wifi Survey Suite: Analyzer</li>
-      <li>WiFi File Transfer: Phone &amp; PC</li>
-      <li>Screenshot OCR</li>
-      <li>Sticky Notes &amp; Reminders</li>
-      <li>Markdown Editor: Offline Notes</li>
-      <li>Simple Bookmark Manager</li>
-      <li>Teleprompter UI</li>
-      <li>Jungle Glow: Tiger &amp; Parrot</li>
-      <li>Jungle Rescue: Dart Shooter</li>
-      <li>Deepglow: Squid &amp; Bionic Run</li>
+      <li><a href="https://play.google.com/store/apps/details?id=com.mossiedeveloper.wifi_analyzer_network_tools">WiFi Analyzer &amp; Network Tools</a></li>
+      <li><a href="https://play.google.com/store/apps/details?id=com.mossiedeveloper.wifi_survey_suite">Wifi Survey Suite: Analyzer</a></li>
+      <li><a href="https://play.google.com/store/apps/details?id=com.mossiemostert.wififiletransfer">WiFi File Transfer: Phone &amp; PC</a></li>
+      <li><a href="https://play.google.com/store/apps/details?id=com.mossiemostert22.screenshot_ocr">Screenshot OCR</a></li>
+      <li><a href="https://play.google.com/store/apps/details?id=com.mossie.sticky_notes">Sticky Notes &amp; Reminders</a></li>
+      <li><a href="https://play.google.com/store/apps/details?id=com.mossie.markdown">Markdown Editor: Offline Notes</a></li>
+      <li><a href="https://play.google.com/store/apps/details?id=com.onemark.bookmarkapp">Simple Bookmark Manager</a></li>
+      <li><a href="https://play.google.com/store/apps/details?id=com.mossie.teleprompter_ui">Teleprompter UI</a></li>
+      <li><a href="https://play.google.com/store/apps/details?id=com.mossie.jungleglow">Jungle Glow: Tiger &amp; Parrot</a></li>
+      <li><a href="https://play.google.com/store/apps/details?id=com.mossie.jungle_rescue">Jungle Rescue: Dart Shooter</a></li>
+      <li><a href="https://play.google.com/store/apps/details?id=com.mossie.deepglow">Deepglow: Squid &amp; Bionic Run</a></li>
     </ul>
     <a class="btn teal" href="https://play.google.com/store/apps/developer?id=Mossie">See them all on Google Play</a>
   </div>
 
   <h2>Have an idea?</h2>
   <div class="ideas">
-    <p>Is there something that would make life in Kleinmond a little easier? A tool for the boat, the garden, the club or the coffee morning? I read every suggestion – I can't build everything, but the best ideas become the next free tool.</p>
-    <a class="btn orange" href="https://www.facebook.com/KleinmondAppStudio">Tell us on Facebook</a>
+    <p>Which app or Windows program would make your life a little easier? A tool for the boat, the garden, the club or the coffee morning? Tell us – we read every message. We can't build everything, but the best ideas become the next free tool.</p>
+    <div class="ideabtns">
+      <a class="btn orange" href="https://m.me/KleinmondAppStudio">Send your idea privately</a>
+      <a class="btn teal" href="https://www.facebook.com/KleinmondAppStudio">Visit our Facebook Page</a>
+    </div>
+    <p class="small">Messages go through Facebook Messenger, so you need a Facebook account.</p>
   </div>
 </main>
 
